@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DF150001F73454200094D0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF14FFF1F73454200094D0C /* main.m */; };
+		7DF150031F73454200094D0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF150021F73454200094D0C /* AppDelegate.m */; };
+		7DF150061F73454200094D0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF150051F73454200094D0C /* ViewController.m */; };
+		7DF150091F73454200094D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF150071F73454200094D0C /* Main.storyboard */; };
+		7DF1500B1F73454200094D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF1500A1F73454200094D0C /* Assets.xcassets */; };
+		7DF1500E1F73454200094D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF1500C1F73454200094D0C /* LaunchScreen.storyboard */; };
+		7DF150191F73454200094D0C /* LoveShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF150181F73454200094D0C /* LoveShopTests.m */; };
+		7DF150241F73454300094D0C /* LoveShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF150231F73454300094D0C /* LoveShopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DF150151F73454200094D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF14FF31F73454200094D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF14FFA1F73454200094D0C;
+			remoteInfo = LoveShop;
+		};
+		7DF150201F73454300094D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF14FF31F73454200094D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF14FFA1F73454200094D0C;
+			remoteInfo = LoveShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DF14FFB1F73454200094D0C /* LoveShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF14FFF1F73454200094D0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF150011F73454200094D0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DF150021F73454200094D0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DF150041F73454200094D0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DF150051F73454200094D0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DF150081F73454200094D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DF1500A1F73454200094D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DF1500D1F73454200094D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DF1500F1F73454200094D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF150141F73454200094D0C /* LoveShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF150181F73454200094D0C /* LoveShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveShopTests.m; sourceTree = "<group>"; };
+		7DF1501A1F73454200094D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF1501F1F73454300094D0C /* LoveShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF150231F73454300094D0C /* LoveShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveShopUITests.m; sourceTree = "<group>"; };
+		7DF150251F73454300094D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF14FF81F73454200094D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF150111F73454200094D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF1501C1F73454300094D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DF14FF21F73454200094D0C = {
+			isa = PBXGroup;
+			children = (
+				7DF14FFD1F73454200094D0C /* LoveShop */,
+				7DF150171F73454200094D0C /* LoveShopTests */,
+				7DF150221F73454300094D0C /* LoveShopUITests */,
+				7DF14FFC1F73454200094D0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF14FFC1F73454200094D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF14FFB1F73454200094D0C /* LoveShop.app */,
+				7DF150141F73454200094D0C /* LoveShopTests.xctest */,
+				7DF1501F1F73454300094D0C /* LoveShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF14FFD1F73454200094D0C /* LoveShop */ = {
+			isa = PBXGroup;
+			children = (
+				7DF150011F73454200094D0C /* AppDelegate.h */,
+				7DF150021F73454200094D0C /* AppDelegate.m */,
+				7DF150041F73454200094D0C /* ViewController.h */,
+				7DF150051F73454200094D0C /* ViewController.m */,
+				7DF150071F73454200094D0C /* Main.storyboard */,
+				7DF1500A1F73454200094D0C /* Assets.xcassets */,
+				7DF1500C1F73454200094D0C /* LaunchScreen.storyboard */,
+				7DF1500F1F73454200094D0C /* Info.plist */,
+				7DF14FFE1F73454200094D0C /* Supporting Files */,
+			);
+			path = LoveShop;
+			sourceTree = "<group>";
+		};
+		7DF14FFE1F73454200094D0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF14FFF1F73454200094D0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DF150171F73454200094D0C /* LoveShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF150181F73454200094D0C /* LoveShopTests.m */,
+				7DF1501A1F73454200094D0C /* Info.plist */,
+			);
+			path = LoveShopTests;
+			sourceTree = "<group>";
+		};
+		7DF150221F73454300094D0C /* LoveShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF150231F73454300094D0C /* LoveShopUITests.m */,
+				7DF150251F73454300094D0C /* Info.plist */,
+			);
+			path = LoveShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DF14FFA1F73454200094D0C /* LoveShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF150281F73454300094D0C /* Build configuration list for PBXNativeTarget "LoveShop" */;
+			buildPhases = (
+				7DF14FF71F73454200094D0C /* Sources */,
+				7DF14FF81F73454200094D0C /* Frameworks */,
+				7DF14FF91F73454200094D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveShop;
+			productName = LoveShop;
+			productReference = 7DF14FFB1F73454200094D0C /* LoveShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DF150131F73454200094D0C /* LoveShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF1502B1F73454300094D0C /* Build configuration list for PBXNativeTarget "LoveShopTests" */;
+			buildPhases = (
+				7DF150101F73454200094D0C /* Sources */,
+				7DF150111F73454200094D0C /* Frameworks */,
+				7DF150121F73454200094D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF150161F73454200094D0C /* PBXTargetDependency */,
+			);
+			name = LoveShopTests;
+			productName = LoveShopTests;
+			productReference = 7DF150141F73454200094D0C /* LoveShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DF1501E1F73454300094D0C /* LoveShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF1502E1F73454300094D0C /* Build configuration list for PBXNativeTarget "LoveShopUITests" */;
+			buildPhases = (
+				7DF1501B1F73454300094D0C /* Sources */,
+				7DF1501C1F73454300094D0C /* Frameworks */,
+				7DF1501D1F73454300094D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF150211F73454300094D0C /* PBXTargetDependency */,
+			);
+			name = LoveShopUITests;
+			productName = LoveShopUITests;
+			productReference = 7DF1501F1F73454300094D0C /* LoveShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF14FF31F73454200094D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "景睦科技";
+				TargetAttributes = {
+					7DF14FFA1F73454200094D0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BJ8HZDDFT9;
+						ProvisioningStyle = Automatic;
+					};
+					7DF150131F73454200094D0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BJ8HZDDFT9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DF14FFA1F73454200094D0C;
+					};
+					7DF1501E1F73454300094D0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BJ8HZDDFT9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DF14FFA1F73454200094D0C;
+					};
+				};
+			};
+			buildConfigurationList = 7DF14FF61F73454200094D0C /* Build configuration list for PBXProject "LoveShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DF14FF21F73454200094D0C;
+			productRefGroup = 7DF14FFC1F73454200094D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF14FFA1F73454200094D0C /* LoveShop */,
+				7DF150131F73454200094D0C /* LoveShopTests */,
+				7DF1501E1F73454300094D0C /* LoveShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DF14FF91F73454200094D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF1500E1F73454200094D0C /* LaunchScreen.storyboard in Resources */,
+				7DF1500B1F73454200094D0C /* Assets.xcassets in Resources */,
+				7DF150091F73454200094D0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF150121F73454200094D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF1501D1F73454300094D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF14FF71F73454200094D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF150061F73454200094D0C /* ViewController.m in Sources */,
+				7DF150031F73454200094D0C /* AppDelegate.m in Sources */,
+				7DF150001F73454200094D0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF150101F73454200094D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF150191F73454200094D0C /* LoveShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF1501B1F73454300094D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF150241F73454300094D0C /* LoveShopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DF150161F73454200094D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF14FFA1F73454200094D0C /* LoveShop */;
+			targetProxy = 7DF150151F73454200094D0C /* PBXContainerItemProxy */;
+		};
+		7DF150211F73454300094D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF14FFA1F73454200094D0C /* LoveShop */;
+			targetProxy = 7DF150201F73454300094D0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DF150071F73454200094D0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF150081F73454200094D0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DF1500C1F73454200094D0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF1500D1F73454200094D0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DF150261F73454300094D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DF150271F73454300094D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DF150291F73454300094D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJ8HZDDFT9;
+				INFOPLIST_FILE = LoveShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loans.LoveShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DF1502A1F73454300094D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJ8HZDDFT9;
+				INFOPLIST_FILE = LoveShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loans.LoveShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DF1502C1F73454300094D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJ8HZDDFT9;
+				INFOPLIST_FILE = LoveShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loans.LoveShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveShop.app/LoveShop";
+			};
+			name = Debug;
+		};
+		7DF1502D1F73454300094D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJ8HZDDFT9;
+				INFOPLIST_FILE = LoveShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loans.LoveShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveShop.app/LoveShop";
+			};
+			name = Release;
+		};
+		7DF1502F1F73454300094D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BJ8HZDDFT9;
+				INFOPLIST_FILE = LoveShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loans.LoveShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveShop;
+			};
+			name = Debug;
+		};
+		7DF150301F73454300094D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BJ8HZDDFT9;
+				INFOPLIST_FILE = LoveShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loans.LoveShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF14FF61F73454200094D0C /* Build configuration list for PBXProject "LoveShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF150261F73454300094D0C /* Debug */,
+				7DF150271F73454300094D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF150281F73454300094D0C /* Build configuration list for PBXNativeTarget "LoveShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF150291F73454300094D0C /* Debug */,
+				7DF1502A1F73454300094D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DF1502B1F73454300094D0C /* Build configuration list for PBXNativeTarget "LoveShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF1502C1F73454300094D0C /* Debug */,
+				7DF1502D1F73454300094D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DF1502E1F73454300094D0C /* Build configuration list for PBXNativeTarget "LoveShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF1502F1F73454300094D0C /* Debug */,
+				7DF150301F73454300094D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF14FF31F73454200094D0C /* Project object */;
+}
